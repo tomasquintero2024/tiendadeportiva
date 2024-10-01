@@ -6,11 +6,24 @@
     <title>LIVESTRONG TRAINING</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>TIENDA DE ARTICULOS DEPORTIVOS</h1>
+        <button id="btnIniciarSesion">Iniciar Sesión / Registrarse</button>
+    </header>
+
     <main>
-        <H1>TIENDA DE ARTICULOS DEPORTIVOS</H1>
-        <button onclick="iniciarCompra()">Iniciar Compra</button>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <div id="listaProductos"></div>
+        </section>
+
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="resumenCarrito"></div>
+            <button id="btnFinalizarCompra" style="display: none;">Finalizar Compra</button>
+        </section>
     </main>
+    
     <footer></footer>
     <script src="proyecto.js"></script>
 </body>
